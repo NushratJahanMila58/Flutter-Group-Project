@@ -21,7 +21,7 @@ class _RegisterState extends State<Register> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(child: Image.asset("images/signin.png", height: 200.0)),
+              Center(child: Image.asset("images/Banner.jpg", height: 200.0)),
               const SizedBox(height: 30.0),
               Text(
                 "Create Account",

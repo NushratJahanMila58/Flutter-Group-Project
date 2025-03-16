@@ -21,10 +21,10 @@ class _LoginState extends State<Login> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(child: Image.asset("images/signin.png", height: 200.0)),
+              Center(child: Image.asset("images/Banner.jpg", height: 200.0)),
               const SizedBox(height: 30.0),
               Text(
-                "Welcome",
+                "Welcome To DaffoFind",
                 style: TextStyle(
                     color: Colors.white70,
                     fontSize: 34.0,
@@ -82,12 +82,15 @@ class _LoginState extends State<Login> {
                   prefixIcon: Icon(Icons.lock, color: Colors.white),
                   suffixIcon: IconButton(
                     icon: Icon(
-                      _isPasswordVisible ? Icons.visibility : Icons.visibility_off,
+                      _isPasswordVisible
+                          ? Icons.visibility
+                          : Icons.visibility_off,
                       color: Colors.white70,
                     ),
                     onPressed: () {
                       setState(() {
-                        _isPasswordVisible = !_isPasswordVisible; // Toggle state
+                        _isPasswordVisible =
+                            !_isPasswordVisible; // Toggle state
                       });
                     },
                   ),

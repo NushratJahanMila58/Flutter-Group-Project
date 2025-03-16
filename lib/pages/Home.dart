@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("DaffoFind"),
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
